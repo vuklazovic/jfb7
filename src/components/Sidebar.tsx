@@ -62,7 +62,7 @@ export default function Sidebar() {
             width: 36,
             height: 36,
             borderRadius: 'var(--radius-md)',
-            background: 'linear-gradient(135deg, var(--accent-gold), var(--accent-orange))',
+            background: 'linear-gradient(135deg, var(--accent-gold), var(--accent-rose))',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',

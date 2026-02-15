@@ -864,7 +864,7 @@ const CashFlow: React.FC = () => {
             width: '60%',
             height: '40%',
             background:
-              'radial-gradient(ellipse, rgba(255, 193, 7, 0.06) 0%, transparent 70%)',
+              'radial-gradient(ellipse, rgba(236, 72, 153, 0.06) 0%, transparent 70%)',
             pointerEvents: 'none',
             filter: 'blur(40px)',
           }}

@@ -56,10 +56,10 @@ function AnimatedBackground() {
       <motion.div
         animate={{
           background: [
-            'radial-gradient(ellipse 80% 50% at 20% 30%, rgba(232,168,56,0.08) 0%, transparent 60%)',
+            'radial-gradient(ellipse 80% 50% at 20% 30%, rgba(236,72,153,0.08) 0%, transparent 60%)',
             'radial-gradient(ellipse 80% 50% at 60% 50%, rgba(139,92,246,0.08) 0%, transparent 60%)',
-            'radial-gradient(ellipse 80% 50% at 40% 70%, rgba(232,168,56,0.06) 0%, transparent 60%)',
-            'radial-gradient(ellipse 80% 50% at 20% 30%, rgba(232,168,56,0.08) 0%, transparent 60%)',
+            'radial-gradient(ellipse 80% 50% at 40% 70%, rgba(236,72,153,0.06) 0%, transparent 60%)',
+            'radial-gradient(ellipse 80% 50% at 20% 30%, rgba(236,72,153,0.08) 0%, transparent 60%)',
           ],
         }}
         transition={{ duration: 20, repeat: Infinity, ease: 'easeInOut' }}
@@ -70,7 +70,7 @@ function AnimatedBackground() {
           background: [
             'radial-gradient(ellipse 60% 40% at 80% 70%, rgba(139,92,246,0.06) 0%, transparent 50%)',
             'radial-gradient(ellipse 60% 40% at 30% 40%, rgba(52,211,153,0.05) 0%, transparent 50%)',
-            'radial-gradient(ellipse 60% 40% at 70% 20%, rgba(232,168,56,0.06) 0%, transparent 50%)',
+            'radial-gradient(ellipse 60% 40% at 70% 20%, rgba(236,72,153,0.06) 0%, transparent 50%)',
             'radial-gradient(ellipse 60% 40% at 80% 70%, rgba(139,92,246,0.06) 0%, transparent 50%)',
           ],
         }}
@@ -79,12 +79,12 @@ function AnimatedBackground() {
       />
 
       {/* Floating shapes */}
-      <FloatingShape delay={0} size={60} x="10%" y="20%" color="rgba(232,168,56,0.12)" shape="circle" />
+      <FloatingShape delay={0} size={60} x="10%" y="20%" color="rgba(236,72,153,0.12)" shape="circle" />
       <FloatingShape delay={2} size={40} x="75%" y="15%" color="rgba(139,92,246,0.15)" shape="diamond" />
-      <FloatingShape delay={1} size={80} x="85%" y="60%" color="rgba(232,168,56,0.08)" shape="ring" />
+      <FloatingShape delay={1} size={80} x="85%" y="60%" color="rgba(236,72,153,0.08)" shape="ring" />
       <FloatingShape delay={3} size={30} x="20%" y="75%" color="rgba(52,211,153,0.12)" shape="circle" />
       <FloatingShape delay={1.5} size={50} x="60%" y="80%" color="rgba(139,92,246,0.1)" shape="ring" />
-      <FloatingShape delay={2.5} size={35} x="45%" y="10%" color="rgba(232,168,56,0.1)" shape="diamond" />
+      <FloatingShape delay={2.5} size={35} x="45%" y="10%" color="rgba(236,72,153,0.1)" shape="diamond" />
       <FloatingShape delay={0.5} size={25} x="90%" y="35%" color="rgba(52,211,153,0.1)" shape="circle" />
       <FloatingShape delay={4} size={45} x="5%" y="50%" color="rgba(139,92,246,0.08)" shape="ring" />
     </div>
@@ -235,7 +235,7 @@ export default function Onboarding({ onComplete }: OnboardingProps) {
           width: 36,
           height: 36,
           borderRadius: 'var(--radius-md)',
-          background: 'linear-gradient(135deg, var(--accent-gold) 0%, #D4922A 100%)',
+          background: 'linear-gradient(135deg, var(--accent-gold) 0%, #BE185D 100%)',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
@@ -243,7 +243,7 @@ export default function Onboarding({ onComplete }: OnboardingProps) {
           fontWeight: 800,
           fontSize: '1.1rem',
           color: 'var(--bg-deep)',
-          boxShadow: '0 0 24px rgba(232,168,56,0.3)',
+          boxShadow: '0 0 24px rgba(236,72,153,0.3)',
         }}>
           J
         </div>
@@ -282,7 +282,7 @@ export default function Onboarding({ onComplete }: OnboardingProps) {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            boxShadow: '0 0 40px rgba(232,168,56,0.2), 0 0 80px rgba(232,168,56,0.1)',
+            boxShadow: '0 0 40px rgba(236,72,153,0.2), 0 0 80px rgba(236,72,153,0.1)',
           }}
         >
           <Brain size={36} color="var(--accent-gold)" />
@@ -305,7 +305,7 @@ export default function Onboarding({ onComplete }: OnboardingProps) {
           }}>
             Discover Your{' '}
             <span style={{
-              background: 'linear-gradient(135deg, var(--accent-gold), #F0C060, var(--accent-gold))',
+              background: 'linear-gradient(135deg, var(--accent-gold), #F472B6, var(--accent-gold))',
               backgroundSize: '200% auto',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
@@ -379,13 +379,13 @@ export default function Onboarding({ onComplete }: OnboardingProps) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.2, duration: 0.6 }}
-          whileHover={{ scale: 1.03, boxShadow: '0 0 40px rgba(232,168,56,0.35)' }}
+          whileHover={{ scale: 1.03, boxShadow: '0 0 40px rgba(236,72,153,0.35)' }}
           whileTap={{ scale: 0.98 }}
           onClick={handleNext}
           style={{
             marginTop: 8,
             padding: '18px 48px',
-            background: 'linear-gradient(135deg, var(--accent-gold) 0%, #D4922A 100%)',
+            background: 'linear-gradient(135deg, var(--accent-gold) 0%, #BE185D 100%)',
             color: 'var(--bg-deep)',
             fontFamily: 'var(--font-display)',
             fontWeight: 700,
@@ -396,7 +396,7 @@ export default function Onboarding({ onComplete }: OnboardingProps) {
             display: 'flex',
             alignItems: 'center',
             gap: 10,
-            boxShadow: '0 0 24px rgba(232,168,56,0.25), 0 4px 12px rgba(0,0,0,0.3)',
+            boxShadow: '0 0 24px rgba(236,72,153,0.25), 0 4px 12px rgba(0,0,0,0.3)',
             letterSpacing: '-0.01em',
           }}
         >
@@ -492,9 +492,9 @@ export default function Onboarding({ onComplete }: OnboardingProps) {
                 transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
                 style={{
                   height: '100%',
-                  background: 'linear-gradient(90deg, var(--accent-gold), #F0C060)',
+                  background: 'linear-gradient(90deg, var(--accent-gold), #F472B6)',
                   borderRadius: 'var(--radius-full)',
-                  boxShadow: '0 0 12px rgba(232,168,56,0.3)',
+                  boxShadow: '0 0 12px rgba(236,72,153,0.3)',
                 }}
               />
             </div>
@@ -573,7 +573,7 @@ export default function Onboarding({ onComplete }: OnboardingProps) {
                     alignItems: 'center',
                     gap: 14,
                     transition: 'all 0.2s cubic-bezier(0.16, 1, 0.3, 1)',
-                    boxShadow: isSelected ? '0 0 20px rgba(232,168,56,0.15)' : 'none',
+                    boxShadow: isSelected ? '0 0 20px rgba(236,72,153,0.15)' : 'none',
                     position: 'relative',
                     overflow: 'hidden',
                   }}
@@ -640,12 +640,12 @@ export default function Onboarding({ onComplete }: OnboardingProps) {
                 }}
               >
                 <motion.button
-                  whileHover={{ scale: 1.03, boxShadow: '0 0 30px rgba(232,168,56,0.3)' }}
+                  whileHover={{ scale: 1.03, boxShadow: '0 0 30px rgba(236,72,153,0.3)' }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleNext}
                   style={{
                     padding: '14px 36px',
-                    background: 'linear-gradient(135deg, var(--accent-gold) 0%, #D4922A 100%)',
+                    background: 'linear-gradient(135deg, var(--accent-gold) 0%, #BE185D 100%)',
                     color: 'var(--bg-deep)',
                     fontFamily: 'var(--font-display)',
                     fontWeight: 700,
@@ -656,7 +656,7 @@ export default function Onboarding({ onComplete }: OnboardingProps) {
                     display: 'flex',
                     alignItems: 'center',
                     gap: 8,
-                    boxShadow: '0 0 16px rgba(232,168,56,0.2), 0 4px 12px rgba(0,0,0,0.3)',
+                    boxShadow: '0 0 16px rgba(236,72,153,0.2), 0 4px 12px rgba(0,0,0,0.3)',
                   }}
                 >
                   {currentStep === totalQuestions ? 'See My Results' : 'Next'}
@@ -724,7 +724,7 @@ export default function Onboarding({ onComplete }: OnboardingProps) {
               style={{
                 fontSize: '4.5rem',
                 marginBottom: 20,
-                filter: 'drop-shadow(0 0 20px rgba(232,168,56,0.3))',
+                filter: 'drop-shadow(0 0 20px rgba(236,72,153,0.3))',
               }}
             >
               {archetype.emoji}
@@ -992,13 +992,13 @@ export default function Onboarding({ onComplete }: OnboardingProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 2.8, duration: 0.5 }}
-            whileHover={{ scale: 1.03, boxShadow: '0 0 40px rgba(232,168,56,0.35)' }}
+            whileHover={{ scale: 1.03, boxShadow: '0 0 40px rgba(236,72,153,0.35)' }}
             whileTap={{ scale: 0.98 }}
             onClick={onComplete}
             style={{
               marginTop: 8,
               padding: '18px 48px',
-              background: 'linear-gradient(135deg, var(--accent-gold) 0%, #D4922A 100%)',
+              background: 'linear-gradient(135deg, var(--accent-gold) 0%, #BE185D 100%)',
               color: 'var(--bg-deep)',
               fontFamily: 'var(--font-display)',
               fontWeight: 700,
@@ -1009,7 +1009,7 @@ export default function Onboarding({ onComplete }: OnboardingProps) {
               display: 'flex',
               alignItems: 'center',
               gap: 10,
-              boxShadow: '0 0 24px rgba(232,168,56,0.25), 0 4px 12px rgba(0,0,0,0.3)',
+              boxShadow: '0 0 24px rgba(236,72,153,0.25), 0 4px 12px rgba(0,0,0,0.3)',
               letterSpacing: '-0.01em',
             }}
           >
